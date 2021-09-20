@@ -1,0 +1,29 @@
+{
+  "name": "telegram-bot-template",
+  "version": "1.0.0",
+  "description": "A Telegram bot template that uses telegraf.js + Next.js + Supabase",
+  "main": "index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsjoeio/telegram-bot-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsjoeio/telegram-bot-template/issues"
+  },
+  "homepage": "https://github.com/jsjoeio/telegram-bot-template#readme",
+  "dependencies": {
+    "telegraf": "3"
+  },
+  "devDependencies": {
+    "@types/node": "^15.3.0",
+    "typescript": "^4.2.4",
+    "vercel": "^23.0.1"
+  }
+}
